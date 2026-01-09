@@ -1,0 +1,16 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "ejemplos_dart",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    }
+  ],
+  "generator": "pub",
+  "generatorVersion": "3.10.7",
+  "flutterRoot": "file:///C:/Users/Usuario/flutter",
+  "flutterVersion": "3.38.6",
+  "pubCache": "file:///C:/Users/Usuario/AppData/Local/Pub/Cache"
+}

@@ -1,0 +1,5 @@
+name: ejemplos_dart
+description: Ejemplos ejecutables - Introducción a Dart
+version: 1.0.0
+environment:
+  sdk: '>=3.0.0 <4.0.0'
