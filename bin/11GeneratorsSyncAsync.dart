@@ -1,13 +1,13 @@
 Iterable<int> contarHasta(int max) sync* {
   for (var i = 1; i <= max; i++) {
-    yield i;
+    yield i; // Generador síncrono
   }
 }
 
 Stream<int> contarAsync(int max) async* {
   for (var i = 1; i <= max; i++) {
     await Future.delayed(const Duration(milliseconds: 300));
-    yield i;
+    yield i; // Generador asíncrono
   }
 }
 
