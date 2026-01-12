@@ -1,5 +1,13 @@
 void main() {
-  final dia = "Sábado";
+  final dia = "Lunes";
+  
+  if(dia == "Lunes" || dia == "Martes") {
+    print("Inicio de semana");
+  } else if (dia == "Sábado" || dia == "Domingo") {
+    print("Fin de semana");
+  } else {
+    print("Día normal");
+  }
 
   switch (dia) {
     case "Lunes":
@@ -20,6 +28,7 @@ void main() {
   for (final fruta in ["Manzana", "Pera"]) {
     print("for-in $fruta");
   }
+ // print("fruta:$fruta"); // Error: fruta no está definida aquí
 
   var c = 0;
   while (c < 2) {

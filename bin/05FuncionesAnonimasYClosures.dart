@@ -13,4 +13,23 @@ void main() {
   final c = contador();
   c(); // 1
   c(); // 2
+  
+
+
+Function obtenerNombreCompleto(String nombre, String apellido) {
+  return () {
+    print( "$nombre $apellido");
+    return "$nombre $apellido";
+  };
+}
+
+  final nombreCompleto = obtenerNombreCompleto("Ana", "Pérez");
+  nombreCompleto(); // Imprime "Ana Pérez"
+
+String imprimeMensaje(String mensaje) {
+  return mensaje;
+}
+
+  var funcionMensaje = (String msg) => imprimeMensaje(msg);
+  print(funcionMensaje("Hola desde función anónima"));
 }
